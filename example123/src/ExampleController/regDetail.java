@@ -162,6 +162,8 @@ public class regDetail extends HttpServlet {
 		
 		//System.out.println("fsadfa:::::::: "+list.size());
 		
+		System.out.println("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
+		
 		request.setAttribute("listall", list);
 		
 		request.getRequestDispatcher("regList.jsp").forward(request, response);
