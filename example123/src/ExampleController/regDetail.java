@@ -161,8 +161,7 @@ public class regDetail extends HttpServlet {
 		list = rdao.ListAll();
 		
 		//System.out.println("fsadfa:::::::: "+list.size());
-		
-		System.out.println("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
+
 		
 		request.setAttribute("listall", list);
 		
