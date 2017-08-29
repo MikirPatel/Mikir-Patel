@@ -160,7 +160,7 @@ public class regDetail extends HttpServlet {
 		
 		list = rdao.ListAll();
 		
-		//System.
+		//System.out.println
 		
 		request.setAttribute("listall", list);
 		
